@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunnyside Agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://use.fontawesome.com/868553b76f.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+        <!-- Navigation Bar -->
+      <nav class="navigation">
+        <img src="images/logo.svg" alt="logo" />
+        <div class="header--navbar__buttons">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a class="contact" href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <div class="burger-container">
+          <img class="burger" onclick="toggler()" src="images/icon-hamburger.svg" alt="icon-hamburger">
+        </div>
+      </nav>
+      <div id="drop-down">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a class="contact-drop" href="#">CONTACT</a></li>
+        </ul>
+      </div>
+
+
+      <h1><span>we are</span> <span>creatives</span></h1>
+      <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
+    </header>
+
+
+
+    <main class="container">
+      <div class="container--cards">
+        <div class="container--cards__card1 card">
+          <h2>Transform your brand</h2>
+          <p>
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <div class="learnMore">
+            <a class="learn learn1" href="#">learn more</a>
+          </div>
+        </div>
+        <div class="container--cards__card2 card">
+        </div>
+        <div class="container--cards__card3 card">
+        </div>
+        <div class="container--cards__card4 card">
+          <h2>Stand out to the right audience</h2>
+          <p>
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <div class="learnMore">
+            <a class="learn learn2" href="#">learn more</a>
+          </div>
+        </div>
+        <div class="container--cards__card5 card">
+            <div class="text">
+                <h3>Graphic Design</h3>
+                <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>    
+            </div>
+        </div>
+        <div class="container--cards__card6 card">
+            <div class="text">
+                <h3>Photography</h3>
+                <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>    
+            </div>
+        </div>
+      </div>
+      <div class="container--testimonials">
+        <h2>CLIENT TESTIMONIALS</h2>
+        <div class="container--testimonials__container">
+          <div class="testimonials--container__content1 content">
+            <img src="images/image-emily.jpg" alt="image-emily" />
+            <p>
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <p class="user">Emily R.</p>
+            <p class="jobDesc">Marketing Director</p>
+          </div>
+          <div class="testimonials--container__content2 content">
+            <img src="images/image-thomas.jpg" alt="image-thomas" />
+            <p>
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <p class="user">Thomas S.</p>
+            <p class="jobDesc">Chief Operating Officer</p>
+          </div>
+          <div class="testimonials--container__content3 content">
+            <img src="images/image-jennie.jpg" alt="image-jennie" />
+            <p>
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <p class="user">Jennie F.</p>
+            <p class="jobDesc">Business Owner</p>
+          </div>
+        </div>
+      </div>
+      <div class="container--kard">
+        <div class="container--kard__card1 card"></div>
+        <div class="container--kard__card2 card"></div>
+        <div class="container--kard__card3 card"></div>
+        <div class="container--kard__card4 card"></div>
+      </div>
+    </main>
+
+    <footer>
+      <h2>sunnyside</h2>
+      <ul>
+        <li> <a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+
+      <div class="icons">
+        <i class="fa fa-facebook-f"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-pinterest"></i>
+        </div>
+    </footer>
+    <p class="author">challenge by <a href="">frontend mentor</a> coded by <a href="#">Olabayoji Oladepo</a></p>
+    <script src="index.js"></script>
+  </body>
+</html>
